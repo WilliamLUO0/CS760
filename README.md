@@ -32,10 +32,11 @@ python rescore.py $MODEL_NAME $BOUNDARY_LIST \
     --logfile_name=rescore.log
 ```
 
+```bibtex
 @article{yang2019semantic,
   title   = {Semantic hierarchy emerges in deep generative representations for scene synthesis},
   author  = {Yang, Ceyuan and Shen, Yujun and Zhou, Bolei},
   journal = {IJCV},
   year    = {2020}
 }
-
+```
