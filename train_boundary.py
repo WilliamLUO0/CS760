@@ -1,20 +1,3 @@
-# python 3.7
-"""Trains boundary with given data and attribute scores.
-
-Basically, given data with shape [num, dim], where `num` stands for total number
-of samples and `dim` represents the space dimension for boundary search, and
-scores (or say, continuous labels) with shape [num], this script trains a
-boundary, with shape [1, dim], to separate the data.
-
-Layer-wise boundary training is supported. More concretely, when given data is
-with shape [num, ..., dim], this script will first reshape the data to shape
-[num, num_layers, dim], and train an independent boundary on each `layer`.
-The well-trained boundaries will be concatenated together and then reshaped to
-shape [1, ..., dim].
-
-NOTE: Currently, this script ONLY supports training linear boundary with SVM.
-"""
-
 import os.path
 import argparse
 import numpy as np
