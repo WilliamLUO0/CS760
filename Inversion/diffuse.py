@@ -1,15 +1,3 @@
-# python 3.6
-"""diffuses target images to context images with In-domain GAN Inversion.
-
-Basically, this script first copies the central region from the target image to
-the context image, and then performs in-domain GAN inversion on the stitched
-image. Different from `intert.py`, masked reconstruction loss is used in the
-optimization stage.
-
-NOTE: This script will diffuse every image from `target_image_list` to every
-image from `context_image_list`.
-"""
-
 import os
 import argparse
 from tqdm import tqdm
