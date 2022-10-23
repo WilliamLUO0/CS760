@@ -38,7 +38,7 @@ STYLE_DIR='results/inversion/test'
 CONTENT_DIR='results/inversion/test'
 python mix_style.py $MODEL_PATH $STYLE_DIR $CONTENT_DIR
 ```
-
+```bibtex
 @inproceedings{zhu2020domain,
   title={In-domain gan inversion for real image editing},
   author={Zhu, Jiapeng and Shen, Yujun and Zhao, Deli and Zhou, Bolei},
@@ -47,3 +47,4 @@ python mix_style.py $MODEL_PATH $STYLE_DIR $CONTENT_DIR
   year={2020},
   organization={Springer}
 }
+```
