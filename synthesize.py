@@ -1,6 +1,3 @@
-# python 3.7
-"""Synthesize a collection of images with specified model."""
-
 import os.path
 import argparse
 from collections import defaultdict
