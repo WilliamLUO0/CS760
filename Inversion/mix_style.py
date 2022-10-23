@@ -1,13 +1,3 @@
-# python 3.6
-"""Mixes styles with In-domain GAN Inversion.
-
-The real images should be first inverted to latent codes with `invert.py`. After
-that, this script can be used for style mixing.
-
-NOTE: This script will mix every `style-content` image pair from style
-directory to content directory.
-"""
-
 import os
 import argparse
 from tqdm import tqdm
