@@ -1,13 +1,3 @@
-# python 3.6
-"""Interpolates real images with In-domain GAN Inversion.
-
-The real images should be first inverted to latent codes with `invert.py`. After
-that, this script can be used for image interpolation.
-
-NOTE: This script will interpolate every image pair from source directory to
-target directory.
-"""
-
 import os
 import argparse
 from tqdm import tqdm
