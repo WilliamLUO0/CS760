@@ -1,6 +1,3 @@
-# python 3.7
-"""Identifies the most relevant semantics with rescoring technique."""
-
 import os.path
 import argparse
 import numpy as np
