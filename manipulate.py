@@ -1,6 +1,3 @@
-# python 3.7
-"""Manipulates images from latent space."""
-
 import os.path
 import argparse
 import numpy as np
