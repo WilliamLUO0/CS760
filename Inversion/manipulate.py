@@ -1,10 +1,3 @@
-# python 3.6
-"""Manipulates real images with In-domain GAN Inversion.
-
-The real images should be first inverted to latent codes with `invert.py`. After
-that, this script can be used for image manipulation with a given boundary.
-"""
-
 import os.path
 import argparse
 import numpy as np
